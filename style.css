@@ -21,6 +21,11 @@ body {
 
 .stats-container {
     display: flex;
+    align-items: flex-start;
+    cursor: pointer;
+}
+.stats-container:hover {
+    box-shadow: 0 0 30px lightblue;
 }
 
 .stats-card {
@@ -66,10 +71,58 @@ body {
     text-align: center;
 }
 
+
+.donate-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.donate-heading {
+    font-size: 30px;
+    font-weight: 600;
+    right: 20px;
+    
+
+}
+
+#donate-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top:0;
+    margin-top:0;
+    padding: 1%;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+    border-radius: 7px;
+}
+
+
+.footer {
+    background-color:#7B8FA1;
+    padding: 1%;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+
 button {
     font-family: 'Cabin';
     border: none;
     padding: 1%;
     margin: 1%;
     border-radius: 7px;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+button:active {
+    box-shadow: 0 0 10px whitesmoke;
 }
